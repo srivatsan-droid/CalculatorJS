@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(41, 58, 58);
+  }
+  
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(32, 59, 53);
+    border: 1px solid rgb(148, 209, 35);
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .display {
+    background-color: rgb(108, 196, 108);
+    border: 1px solid seagreen;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    font-size: 35px;
+    color: rgb(141, 58, 58);
+    text-align: end;
+  }
+  
+  .btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  
+  .btn {
+    border: 1px solid gray;
+    border-radius: 6px;
+    /*width: calc(100% / 5);
+    */flex: 1 1 calc(100% / 5);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+  
+  .clear {
+    margin-left: 200px;
+    background-color: rgb(202, 133, 133);
+    border: 1px solid rgb(216, 56, 38);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .operator, .equal {
+    background-color: rgb(181, 202, 216);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .digit {
+    background-color: rgb(233, 236, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .text-display {
+    font-size: 21px;
+    line-height: 35px;
+  }
+  #dot {
+    background-color: yellow;
+  }
